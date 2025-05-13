@@ -1,0 +1,13 @@
+# render.yaml
+services:
+  - type: web
+    name: flask-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    runtime: python
+    region: oregon
+    plan: free
+    branch: main
+    repo: 
+    workingDir: backend
