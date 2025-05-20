@@ -5,7 +5,7 @@ function App() {
 
   const callBackend = async () => {
     try {
-      const res = await fetch('http://13.232.196.37:8000/api', {
+      const res = await fetch('http://13.232.196.37/api', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
