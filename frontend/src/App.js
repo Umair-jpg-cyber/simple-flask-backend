@@ -6,7 +6,7 @@ function App() {
   const [response, setResponse] = useState("");
 
   const handleSubmit = () => {
-    fetch("http://localhost:5000/api", {
+    fetch("http://13.232.196.37/api", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
